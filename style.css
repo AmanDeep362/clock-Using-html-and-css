@@ -1,3 +1,41 @@
+body{
+  animation-name: background-set;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes background-set{
+  10%{
+    background-color: rgb(240, 23, 23);
+  }
+  20%{
+    background-color: rgb(27, 255, 141);
+  }
+  30%{
+    background-color: rgb(72, 6, 255);
+  }
+  40%{
+    background-color: rgb(42, 255, 60);
+  }
+  50%{
+    background-color: rgb(226, 21, 124);
+  }
+  60%{
+    background-color: rgb(6, 185, 0);
+  }
+  70%{
+    background-color: rgb(116, 17, 209);
+  }
+  80%{
+    background-color: rgb(247, 15, 177);
+  }
+  90%{
+    background-color: brown;
+  }
+  100%{
+    background-color: rgb(255, 0, 255);
+  }
+}
 #clockContainer {
   background-image: url(clockimage.png);
   width: 40vw;
@@ -23,6 +61,7 @@
   top: 21%;
   /* display: none; */
 }
+
 #minute {
   width: 1.8%;
   height: 33%;

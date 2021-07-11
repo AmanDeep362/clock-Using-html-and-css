@@ -12,9 +12,9 @@ setInterval(() => {
     second.style.transform = `rotate(${srotation}deg)`;
    
 }, 1000);
-setInterval(
-    function () {
-      var randomColor = Math.floor(Math.random()*16777215).toString(16);
-      document.body.style.backgroundColor = "#"+randomColor;
-      Heading.style.Color = "#"+randomColor;
-    },1000);
+// setInterval(
+//     function () {
+//       var randomColor = Math.floor(Math.random()*16777215).toString(16);
+//       document.body.style.backgroundColor = "#"+randomColor;
+//       Heading.style.Color = "#"+randomColor;
+//     },1000);
